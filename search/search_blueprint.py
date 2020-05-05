@@ -1,3 +1,9 @@
+'''
+Logic in this file by vivithemage
+
+Link: https://github.com/vivithemage/mrisa
+'''
+
 import argparse
 import json
 import pycurl
