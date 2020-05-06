@@ -36,8 +36,8 @@ def sms_reply():
 		msg.media(random_ernie_media)
 	elif body == "":
 		r = perform_search(media)
-		buest_guess = r.json()['best_guess']
-		msg = resp.message(buest_guess)
+		best_guess = r.json()['best_guess']
+		msg = resp.message(best_guess)
 	else:
 		msg = resp.message("Type Ernie or send a picture for us to classify!")
 
